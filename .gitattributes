@@ -1,0 +1,6 @@
+lfs.zip !text !filter !merge !diff
+lfs.zip filter=lfs diff=lfs merge=lfs -text
+* !text !filter !merge !diff
+zip !text !filter !merge !diff
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.zip !text !filter !merge !diff
